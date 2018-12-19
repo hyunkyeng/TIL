@@ -1,0 +1,68 @@
+/* h1 {
+     color: green;
+}
+p {
+    background: gray;
+} */
+
+/* h1,과 p 를 한번에 변경하고 싶을때
+별은 모든 태그를 한번에  */
+h1, p {
+    color: white;
+}
+*{
+    background: cornflowerblue
+    
+}
+font-family: 'Black Han Sans', sans-serif;
+
+#lunch {
+    color: hotpink;
+}
+
+#dinner{
+    background: skyblue
+}
+
+.container{
+    background: darkgoldenrod;
+}
+/* id 색이 제일 세고, 그다음이 개개인, 그다음이 class */
+/* id는 # , class는 .  */
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+/* div 안에 있는 모든 후손 p에게  */
+div p {
+    color: green;
+
+}
+
+/* div의 1레벨 아래에 있는 p */
+div > p {
+    color: hotpink;
+}
+
+/* (거의 안씀)형제들, 형제사이에 이미지 같은 것으로 장애물이 있으면 안된다. 붙어있는 형제만 */
+p + span {
+
+}
+
+/* (거의 안씀)장애물이 있어도 되는 형제들, 장애물도 같이 변경된다.  */
+p ~ span { 
+
+}

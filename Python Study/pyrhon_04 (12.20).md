@@ -298,3 +298,41 @@ def google():
 ```
 
 > 결과 (http://flask-basic-hyunkyeng.c9users.io:8080/google)
+
+
+
+- 핑퐁
+
+> hello.py
+
+```python
+@app.route("/ping")
+def ping():
+    return render_template("ping.html")
+    
+@app.route("/pong")
+def pong():
+    pingpong = request.args.get('ping')
+    return render_template("pong.html", pingpong = pingpong)
+```
+
+> ping.html
+
+```python
+<h1>핑퐁핑퐁</h1>
+<form action="/pong">
+    <input type="text" name="ping"/>
+    <input type="submit" value="Submit"/>
+</form>
+```
+
+> pong.html
+
+```python
+<h1>{{ pingpong }}</h1>
+```
+
+
+
+- OP.GG
+

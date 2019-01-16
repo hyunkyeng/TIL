@@ -1,0 +1,147 @@
+<!-- ! 누르고 tab누르면 자동완성. -->
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">  <!--#한글때문에 쓰는것-->
+    <title>markup</title>
+    <style>
+        body {
+            height: 10000px;
+        }
+        table, tr, td {
+            border: 1px solid darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="edu">프로그래밍 교육</h1>
+    <a href="#python">
+        <img src="images/다운로드.jpg" alt="python">   <!--<이미지추가> img 탭하면 자동완성, alt에는 이미지 설명-->
+    </a>    
+    <a href="reference.html">참고사이트</a>    <!--같은 폴더에 있으므로 파일명만 써주면 된다.-->
+    <hr>                               <!--target="_blank" : 새로운 탭으로 이동-->
+    <h2><a href="https://docs.python.org/3/" target="_blank">파이썬</a></h2>
+    <h3>Number type</h3>
+    <p>파이썬에서 숫자형은 아래와 같이 있다</p>
+    <ol style="list-style-type: hiragana">
+        <li>int</li>
+        <li>float</li>
+        <li>complex</li>
+        <li><del>str</del></li>
+    </ol>
+    <p><strong>Sequence</strong></p>
+    <p>파이썬에서 시퀀스는 아래와 같이 있다.</p>
+    <p><strong>시퀀스는 for문을 돌릴 수 있다</strong></p>
+    <ol>
+        <li>str</li>
+        <li>list</li>
+        <li>tuple</li>
+        <li>range</li>
+    </ol>
+    <hr>
+    <h2><a href="https://developer.mozilla.org/ko/">웹</a></h2>
+    <h3>기초</h3>
+    <ul style="list-style-type:square">
+        <li>HTML</li>
+        <li id="python">CSS</li>
+    </ul>
+    <section>
+        <a href="https://www.google.com" target="_self">절대 URL</a>  <!--target="_self : 지금사이트에서 이동-->
+        <a href="reference.html" target="_blank">상대 URL</a>   <!--target="_blank : 새로운 창이 열리면서 이동-->
+        <a href="#edu">교육으로 이동</a>   <!-- 원하는 곳에 id 값을 edu 로 지정해주면 교육으로 이동을 누르면 거기로 이동. -->
+        <a href="mailto:hyun5593@naver.com">메일보내기</a>  <!-- 이주소로 메일보내는것-->
+    </section>
+    <section>
+        <img src="images/다운로드.jpg" width="100px" height="100px" alt="">
+    </section>
+    <!-- 유튜브 영상넣기 : 영상에서 공유에서 퍼가기에서 다 복사해서 붙여넣기. -->
+    <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g6yIKq1RiSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+        <table>
+            <tr>
+                <th></th>    <!--td : 그냥글씨, th : 볼드체-->
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+            </tr>
+            <tr>
+                <td>A코스</td>
+                <td colspan="2">짬뽕</td>  <!--colspan="2" : 열 두칸을 차지-->
+                <td rowspan="2">초밥</td>  <!--rowspan="2" : 행 두칸을 차지-->
+            </tr>
+            <tr>
+                <td>B코스</td>
+                <td>김치찌개</td>
+                <td>삼계탕</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>2019 타임테이블</h1>
+        <table>
+            <tr>
+                <th>TIME</th>
+                <th>INDOOR</th>
+                <th colspan="2">OUTDOOR</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>소극장</td>
+                <td>잔디마당</td>
+                <td>대공연장</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td rowspan="2">안녕하신가영</td>
+                <td></td>
+                <td>10CM</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td rowspan="2">선우정아</td>
+                <td rowspan="2">참깨와솜사탕</td>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>17:00</td>
+                <td>크러쉬</td>
+                <td></td>
+                <td>폴킴</td>
+            </tr>
+        </table><br>
+        <!-- form 실습 -->
+        <h2>FORM INPUT</h2>
+        <form action="https://www.google.com/search?">   <!--값을 비워둘때는 #을 쓴다.-->
+            텍스트 : <input type="text" name="q" autofocus><br><br>    <!--autofocus : 새로고침했을때 여기가 클릭되어있다.-->
+            이메일 : <input type="email" autocomplete="on"><br><br>    <!--autocomplete="on" : 그동안 사용한 이메일이 드롭박스 형식으로 나온다.-->
+            비밀번호 : <input type="password"><br><br>
+            날짜 : <input type="date"><br><br>
+            <input type="hidden" name="해커" value="이사람은 해커야">
+            <input type="submit" value="전송!"><br><br>
+            <!-- radio button -->
+            <input type="radio" name="gender" value="female" checked>여자<br>   <!-- checked : 기본값 지정-->
+            <input type="radio" name="gender" value="male">남자<br><br>
+
+            <!-- checkbox -->
+            <input type="checkbox" name="option" value="1">sia<br>
+            <input type="checkbox" name="option" value="2">Queen<br>
+            <input type="checkbox" name="option" value="3">Bieber<br>
+
+            <input type="number" name="size" min="10" max="60" step="10" value="15">  <!--value 에서 시작, step만큼 이동-->
+
+            <!-- 체크박스 -->
+            <select name="country">
+                <option value="korea">한국</option>
+                <option value="japan" disabled>일본</option>   <!--disabled: 선택안됨-->
+                <option value="china" selected>중국</option>    <!-- selected : 처음에 선택되어있음-->
+            </select>
+        </form>
+    </section>
+</body>
+
+
+</html>

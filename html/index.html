@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">    <!--lang: 언어-->
+<head>
+    <meta charset="UTF-8">  <!--#한글때문에 쓰는것-->
+    <title>Hi, there!</title>
+</head>
+<bodY>
+    <!--Heading-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- Bold -->
+    <!-- div 는 아무의미 없이 묶어주는 것 / b, strong 은 같은 것이지만 strong이라는 의미만 넣은 것. -->
+    <div>  <!-- div로 묶으면 자동으로 enter가 된다. -->
+        <b>This is blod</b><br>    <!--br : enter-->
+        <strong>This is strong(semantic tag : 의미를 가지고있는 태그)</strong>
+    </div>
+    <!-- Italic -->
+    <div>
+        <i>This is italic</i><br>
+        <em>This is em(semantic)</em>
+    </div>
+    <!-- highlighted -->
+    <h2>This is <mark>mark</mark></h2>    <!--형광펜-->
+    <h2>This is <del>del</del></h2>    <!--취소선-->
+    <h2>This is <ins>ins</ins></h2>     <!--밑줄선-->
+    <!-- sub / sup -->
+    <h2>This is <sub>sub</sub></h2>    <!--밑-->
+    <h2>This is <sup>sup</sup></h2>   <!--지수-->
+
+    <p>  <!--p태그안에서는 개행이 안된다. p끼리는 개행이 된다.-->
+        This is p tag
+        This is p tag
+        This is p tag
+        This is p tag
+        This is p tag
+        This is p tag
+        This is p tag
+        This is p tag
+    </p>
+    <p>  <!-- p : 그냥 줄쓸때 사용-->
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag
+    </p>
+    <!-- pre  -->   <!-- 인용문 쓸 때 사용-->
+    <pre>
+         from flask import Flask
+         app = Flask(__name__)
+
+         @app.route('/')
+    </pre>
+    <!-- 라인선 -->
+    <hr>
+    <p>
+        hyun said, <q>hello world</q>   <!-- q : " " -->
+    </p>
+    <blockquote>    <!-- 긴 인용문일 때 사용 -->
+        Hello world !!!!
+    </blockquote>
+    <ol>   <!-- order list : 숫자가 앞에 표시된다.-->
+        <li>first</li>   <!-- li :리스트-->
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <ul>   <!-- un order list : 숫자가 점이 표시된다.-->
+        <li>first</li>   <!-- li :리스트-->
+        <li>second</li>
+        <li>third</li>
+    </ul>
+</bodY>
+</html>

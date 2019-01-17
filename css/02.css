@@ -1,0 +1,26 @@
+/*  * : 전체 셀렉터를 의미한다.  전체셀렉터보다는 하나만 선택해서 한 h1 가 우선순위가 높다. */
+/* 전체 셀렉터의 우선순위가 가장 낮다. */
+* {   
+    color: crimson;
+}
+h1 {
+    color: darkblue;
+}
+/*  .클래스명 */
+.pink { 
+    color:pink;
+}
+/*  #아이디명 */
+#green {
+    color: darkgreen;
+}
+/* id > class 우선순위가 높다. // class > tag  */
+h2 {
+    color:black;
+}
+.blue {
+    color: blue;
+}
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+/* 상하좌우 10픽셀을 준다는 뜻이다.  */
+.padding-10 {
+    padding: 10px;
+}
+
+/* 보더 박스를 100*100으로 유지 그안에서 패딩값을 지정하는 것 */
+/* margin: auto   : 창크기가변해도 계속 가운데를 유지 */
+.border-box {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/* <!-- margin-left: auto; 왼쪽에 남은 너비를 붙인다(오른쪽정렬)
+    margin: auto;   : auto 값을 주었을때 오른쪽 왼쪽 반반 나눠준다.  --> */
+/* 4개일때 순서: 위 오른쪽 왼쪽 아래 // 3개일때 : top rl bot // 2개일때 tb rl// 1개일때 tbrl */
+.margin-50 {
+    margin: 50px 50px 50px 50px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-3 {
+    margin: 10px 20px 30px
+}
+
+/* border-style : 경계선 스타일 지정 */
+.border {
+    /* border: 1px black dashed;  순서상관없다 */
+    border-style: dashed;
+    border-bottom-style: double;
+    border-top-style: solid;
+    border-left-style: inset;
+    border-bottom-color: darkslategrey;
+}
+
+
+/* 원은 네모에서 border-radius:  이렇게 깎아서 만든다.  */
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(98, 214, 250, 0.986);
+    border-radius: 100px;  /* 아니면 border-radius: 50% 라고 한다 */
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.747);
+    border-radius: 10% 75%;
+    opacity: 0.5;  /*투명도설정*/
+    /* border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; */

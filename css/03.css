@@ -1,0 +1,49 @@
+/* 밑에 p랑 h3을 같이 선택한 것은 그룹선택 한것 */
+p, h3 {
+    color: darkgray;
+}
+.black_bg, .white {
+    color: white;
+    background-color: black;
+}
+/* bgc 탭하면 백그라운드 컬러가 나온다.  */
+
+/* div 는 아무의미 없는데, div에 가로 세로 경계선 설정을 해주므로 박스가 생긴다.  */
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+
+/* 형제선택자: h1에 붙어있는 p가 있다면 p만 바꾸자(h1의 형제 태그인 p 를 바꾸는 것 */
+h1 + p {
+    color: darkgreen;
+}
+.red + .blue + div {
+    background-color: purple;
+}
+
+/* ol > li : 자식 선택하는 것.  */
+ol > li {
+    color:coral;
+}
+ol#chocolate > li {
+    color: chocolate;
+}
+
+/* ul > li : ul바로 자식을 뜻하므로 안된다.
+ul li : ul안에 있는 li를 뜻한다.  */
+ul li {
+    color: lime
+}
+
+/* 위의 자식2만 색을바꾸고 싶을 때 */
+ul li:nth-of-type(2) {
+    color:black;
+}

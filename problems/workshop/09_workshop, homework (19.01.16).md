@@ -27,7 +27,7 @@
 
 1. HTML은 무엇의 약자인가?  (3) HyperText Markup Language
 2. 다음 중 맞으면 T, 틀리면 F를 기입 하시오.
-   - 웹 표준을 만드는 곳은 Mozilla 재단이다. F
+   - 웹 표준을 만드는 곳은 Mozilla 재단이다. F (w3c)
    - 표(table) 을 만들 때에는 반드시 <th> 태그를 사용해야한다. F
    - 제목(Heading) 태그는 제목 이외에는 사용하지 않는 것이 좋다. T
    - 인용문을 가리키는 태그는 <blockquote> 이다.  T
@@ -40,6 +40,11 @@ article, footer, nav
 4. 아래 이미지처럼 로그인 화면을 html태그를 이용해 작성하시오. (로그인 정보는 '/login'으로 보내집니다. )
 
 ```html
+<form action="/login">
+    ID:<input type="text"><br>
+	PWD:<input type="password">
+	<input type="submit" value="로그인"> 
+</form>
 
 ```
 

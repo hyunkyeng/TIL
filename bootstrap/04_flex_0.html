@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="flex_temp.css">
+    <style>
+        .container {
+            display: flex;
+            /* flex: 기존에있던 블럭을 인라인 속성으로 바꾼다. */
+            /* display: inline-flex; */
+            height: 100vh;
+            /* 높이가 브라우저 높이만큼 */
+            border: 10px solid royalblue;
+            /* flex-direction: row; */ 
+            /*  flex-direction 축방향 : row값이 기본 */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap : 너비가 밑에서 지정한 500을 넘으면 밖으로 보내버린다. */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: nowrap : 너비를 맞춰준다. 기본값 */
+            /* flex-flow: row nowrap; */
+            /* flex-flow: row nowrap : 기본값 */
+        }
+        .item {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container p-0">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+        <div class="item item7">7</div>
+        <div class="item item8">8</div>
+        <div class="item item9">9</div>
+        <div class="item item10">10</div>
+        <!-- <div class="item item11">11</div>
+        <div class="item item12">12</div> -->
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

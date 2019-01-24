@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- 윗줄 : animate.css 에서 애니메이션 가져온것. 윗줄 복사하고 밑에서 wobble 이름 작성하면 된다.  -->
+    <link rel="stylesheet" href="font_animation.min.css">
+    <style>
+        /* 글씨 바꿀때 googlefont에서 + 누르고 css는 @import 복사하고 밑에있는 spexify in css 도 복사해서 붙여넣기 */
+        @import url('https://fonts.googleapis.com/css?family=Cute+Font&subset=korean');
+
+        body {
+            font-family: 'Cute Font', cursive;
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+        }
+
+        .square:hover {
+            background-color: crimson !important;
+            opacity: 0.7;
+            /* opacity: 투명도, 0이 가장 투명한 것 */
+            animation: wobble 0.5s infinite;
+        }
+
+        p {
+            /* 텍스트 수직 가운데 정렬 부모의 높이만큰 line-height를 부여, 한줄일때만 사용가능 */
+            line-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="square bg-primary d-inline-block mx-3 text-center animated wobble delay-1s infinite">
+            <p>안녕하세요</p>
+        </div>
+        <div class="square bg-primary d-inline-block mx-3 text-center">
+            <p>반갑습니다</p>
+        </div>
+        <!--inline-block : 인라인 속성을 가지면서 블락속성도 가진다.-->
+    </div>
+    <div class="container">
+        <i class="fab fa-apple fa-10x text-danger "></i>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
+        crossorigin="anonymous"></script>
+    <!-- 윗줄: Font awesome에서 free에서 SVG 복사해온것 -->
+</body>
+
+</html>

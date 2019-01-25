@@ -22,9 +22,7 @@
     하여야 한다. 여기서 말하는 meta tag의 가장 일반적인 형태를 작성하시오.
 
   ```html
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
   ```
 
   

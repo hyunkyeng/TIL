@@ -1,0 +1,43 @@
+import sys
+sys.stdin = open("problem_GNS_input.txt", "r")
+T = int(input())
+
+for tc in range(T):
+    temp = input()    # '#'이 있어서 받기 어렵다. 그냥 데이터의 len값을 받으면 되니까 안받아도 된다. 따라서 dumm로 받고 안쓴다.
+    data = list(map(str, input().split()))
+    count = [0]*10
+    # print(count)
+
+    for i in range(len(data)):
+        if data[i] == 'ZRO':
+            count[0] += 1
+        elif data[i] == 'ONE':
+            count[1] += 1
+        elif data[i] == 'TWO':
+            count[2] += 1
+        elif data[i] == 'THR':
+            count[3] += 1
+        elif data[i] == 'FOR':
+            count[4] += 1
+        elif data[i] == 'FIV':
+            count[5] += 1
+        elif data[i] == 'SIX':
+            count[6] += 1
+        elif data[i] == 'SVN':
+            count[7] += 1
+        elif data[i] == 'EGT':
+            count[8] += 1
+        elif data[i] == 'NIN':
+            count[9] += 1
+
+    result = ['ZRO '* count[0], 'ONE ' * count[1], 'TWO ' * count[2], 'THR ' * count[3],
+              'FOR ' * count[4], 'FIV ' * count[5], 'SIX ' * count[6], 'SVN ' * count[7],
+              'EGT ' * count[8], 'NIN ' * count[9]]
+    # print(type(result))
+
+    res = ""
+    for i in result:
+        res += i
+    print(f'#{tc+1} {res}')
+
+

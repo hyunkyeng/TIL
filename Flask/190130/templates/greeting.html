@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--Q. 조건문 사용-->
+    <!--이름이 내이름으로 들어오면 누구누구 왔니?-->
+    <!--다름이름으로 값이 넘어오면 누구누구 너 누구야?-->
+    
+    {% if html_name == '현경' %}
+        <h1>안녕, {{ html_name }} </h1>
+    {% else %}
+        <h2>{{ html_name }}, 너 누구야? </h2>
+    {% endif %}
+    
+    
+</body>
+</html>

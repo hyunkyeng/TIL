@@ -38,3 +38,12 @@ h2 {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+.pnt{
+    cursor: pointer;
+}
+
+.card-title{
+    display: flex;
+    flex-wrap: nowrap;
+}

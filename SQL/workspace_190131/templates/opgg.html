@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: Dodgerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">홈</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">책피언 분석<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">통계</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">랭킹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">프로관전</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">커뮤니티</a>
+                </li>
+                <!--<li class="nav-item">-->
+                <!--    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center">
+        <img src="https://attach.s.op.gg/logo/20190128090241.bcb4fa0f06c3a9deea6dc1798ce6ee5a.PNG" title="Awaken" alt="OP.GG Logo (Awaken)" class="Image">
+    </div>
+
+    <form action="/opgg_result" target="_blank">
+        <div class="row p-5 d-flex justify-content-center">
+            <div class="form-group align-items-center">
+                <!--<label for="exampleInputEmail1"> </label>-->
+                <input type="text" name="username" class="form-control" aria-describedby="emailHelp" placeholder="소환사명, 소환사명, ...">
+            </div>
+
+            <button type="submit" class="btn btn-primary">.GG</button>
+        </div>
+    </form>
+
+
+
+
+
+
+    <!--간단한 소환사검색-->
+    <!--<form action="/opgg_result" target="_blank">-->
+    <!--    <input type="text" name="username" />-->
+    <!--    <input type="submit" value="search" />-->
+    <!--</form>-->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

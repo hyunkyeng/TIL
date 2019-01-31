@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/timeline/create">
+        <input type="text" name="username" />
+        <input type="text" name="message" />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <!--flask에서 받은 객체(딕셔너리 형태)를 받아서 반복문으로 출력-->
+    <ul>
+        {% for i in L %}
+            <!--{{ i }} <br>-->
+            <!--<li>{{ i['username'] }} : {{ i['message'] }}</li>-->
+            <li>{{ i.username }} : {{ i.message }}</li>   
+        {% endfor %}
+    </ul>
+
+</body>
+
+</html>

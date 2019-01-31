@@ -1,0 +1,7 @@
+CREATE TABLE classmate (
+-- AUTOINCREMENT 은 int에서 사용불가. 
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT NOT NULL,
+age INT NOT NULL,
+address TEXT NOT NULL
+);

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INFO</title>
+</head>
+<body>
+    <h1>우리반 정보</h1>
+    <h3>Teacher</h3>
+    <ul>
+        <li>{{ teacher }}</li>
+    </ul>
+    <h3>Student</h3>
+    <ul>
+        {% for student in students %}
+        <li>{{ student }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

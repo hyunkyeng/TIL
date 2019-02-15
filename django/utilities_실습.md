@@ -8,8 +8,8 @@
 |          url          |                                                          |
 | :-------------------: | :------------------------------------------------------: |
 |      utilities/       |                                                          |
-|    utilities/bye/     |               우리 헤어지는 시간 출력하기                |
-| utilities/graduation/ |        우리 1학기 졸업시간까지 남은 날짜 출력하기        |
+|    utilities/bye/     |            우리 헤어지는 시간 출력하기(2/28)             |
+| utilities/graduation/ |     우리 1학기 졸업시간까지 남은 날짜 출력하기(5/28)     |
 | utilities/imagepick/  |        Lorem Picsum 활용하여 랜덤 이미지 출력하기        |
 |   utilities/today/    | 오늘 시간 및 날씨 정보 알려주기(지금 살고 있는 기준으로) |
 | utilities/ascii_new/  |       ascii art를 변환을 위한 text, font 입력받기        |

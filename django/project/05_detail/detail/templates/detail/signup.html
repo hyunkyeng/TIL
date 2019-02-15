@@ -1,0 +1,40 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% block title %}{% endblock %} 
+{% block body %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'detail/style.css' %}" type="text/css" /> 
+{% endblock %}
+
+
+<div class="container">
+    <div class="row">
+        <img src="{% static 'detail/images/kakao.gif' %}" alt="kakao">
+
+        <form>
+            <div class="signup">
+                <h2 class="d-flex justify-content-center">Sign Up</h2>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <label for="exampleInputName">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter name">
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password Confirm</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

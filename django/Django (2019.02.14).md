@@ -116,3 +116,49 @@ home의 views에 들어가서 모든 함수의  'index.html' 에 home/ 추가 ->
 'home/index.html'
 ```
 
+
+
+
+
+django_intro 폴더안에 templates폴더를 생성후 기존의 base.html을 templates폴더로 옮긴다.
+
+
+
+settings에 TEMPLATES = [
+​    {
+​        'DIRS': [os.path.join(BASE_DIR, 'django_intro', 'templates')],
+
+추가하면 base.html이 가장먼저 인식된다. 
+
+
+
+project에 있는 static폴더를 사용할때 
+
+STATICFILES_DIRS = [
+
+​	os.path.join(BASE_DIR, "프로젝트이름쓰기", "static")
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

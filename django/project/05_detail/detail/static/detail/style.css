@@ -1,0 +1,35 @@
+
+
+.header {
+    height: 350px;
+    background: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    background: lightgray;
+}
+
+.text {
+    margin: 0 100px !important;
+}
+
+.signup {
+    width: 500px
+}
+
+.not_found {
+    height: 350px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

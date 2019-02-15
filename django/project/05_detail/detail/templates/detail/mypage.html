@@ -1,0 +1,47 @@
+{% extends 'base.html' %} 
+
+{% load static %} 
+
+{% block title %}{% endblock %} 
+
+{% block body %} 
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'detail/style.css' %}" type="text/css" /> 
+{% endblock %}
+
+<div class="container">
+    <div class="card position-fixed" style="width: 15rem;">
+        <img src="{% static 'detail/images/panda.jpg' %}" class="card-img-top rounded-circle" alt="panda">
+        <div class="card-body">
+            <h5 class="card-title">HyunKyeng</h5>
+            <p class="card-email">hyunk4593@gmail.com</p>
+            <p class="card-text">Hi</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">Logout</a>
+        </div>
+    </div>
+    <div class='row justify-content-center'>
+        <div class="text">
+            <div class="card" style="width: 25rem;">
+                <img src="{% static 'detail/images/dog.jpg' %}" class="card-img-top" alt="dog">
+                <div class="card-body">
+                    <h5 class="card-title">작성글</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+                <img src="{% static 'detail/images/dog.jpg' %}" class="card-img-top" alt="dog">
+                <div class="card-body">
+                    <h5 class="card-title">작성글</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

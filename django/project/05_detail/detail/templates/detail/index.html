@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'detail/style.css' %}" type="text/css" />
+{% endblock %}
+
+{% block body %}
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="footer d-flex justify-content-between align-items-center px-3">
+        <p class="m-0">현경</p>
+        <a href='#header'>상단으로 올라가기</a>
+    </div>
+{% endblock %}

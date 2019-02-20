@@ -19,7 +19,7 @@
 
 pyenv local django-venv
 
-gjango-admin startproject home .
+django-admin startproject home .
 
 python manage.py startapp student
 

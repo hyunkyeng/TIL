@@ -1,0 +1,14 @@
+{% extends 'boards/base.html' %}
+{% block body %}
+    <h1>EDIT</h1>
+    <h2>{{ board.id }}번째 글 수정</h2>
+    <form action='/boards/{{ board.pk }}/update/' method="POST">
+        {% csrf_token %}     <!-- POST방식이므로 이거 써줘야한다 -->
+        <label for="title">TITLE</label>
+        <input type="text" name="title" id="title" value="{{ board.title }}"/><br>
+        <label for="content">CONTENT</label>
+        <textarea name="content" id="content">{{ board.content }}</textarea>
+        <input type="submit" value="Submit"/>
+    </form>
+    <a href="/boards/">Back</a>
+{% endblock %}

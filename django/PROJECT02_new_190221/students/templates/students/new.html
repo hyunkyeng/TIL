@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NEW</title>
+</head>
+<body>
+    <h1>New</h1>
+    <form action='/students/create/' method="POST">
+        {% csrf_token %}
+        이름 : <input type="text" name="name"/><br>
+        이메일 : <input type="email" name="email"/><br>
+        생년월일 : <input type="date" name="birthday"/><br>
+        나이 : <input type="text" name="age"/><br>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

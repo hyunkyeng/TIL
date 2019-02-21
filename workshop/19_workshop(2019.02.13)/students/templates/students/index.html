@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INDEX</title>
+</head>
+<body>
+    <h1>학생 정보</h1>
+    <a href="new/">[학생 추가하기]</a>
+    <hr>
+    {% for student in students %}
+        <p>{{ student.id }}</p>
+        <p>{{ student.name }}</p>
+        <p>{{ student.email }}</p>
+        <p>{{ student.birthday }}</p>
+        <p>{{ student.age }}</p>
+        <a href="/students/{{ student.pk }}/delete/">[삭제]</a>
+        <a href="/students/{{ student.pk }}/edit/">[수정]</a>
+    {% endfor %}
+</body>
+</html>

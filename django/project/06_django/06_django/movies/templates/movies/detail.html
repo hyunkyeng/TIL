@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DETAIL</title>
+</head>
+<body>
+    <h2>Detail</h2>
+    title : {{ movies.title }}<br>  
+    audience : {{ movies.audience }}<br>
+    genre : {{ movies.genre }}<br>
+    score : {{ movies.score }}<br>
+    poster_url : {{ movies.poster_url }}<br>
+    description : {{ movies.description }}<br>
+    
+    
+    
+    <a href="/movies/">[목록]</a>
+    <a href="#">[수정]</a>
+    <a href="/movies/{{ movies.id }}/delete/">[삭제]</a>
+</body>
+</html>

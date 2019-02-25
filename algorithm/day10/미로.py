@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("미로.txt")
+sys.stdin = open("미로.txt")   # 2: 출발점, 3: 도착점, 0: 벽, 1: 길, 9: 방문처리
 
 def search(start, y):
     global M, flag

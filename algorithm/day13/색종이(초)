@@ -1,0 +1,21 @@
+import sys
+sys.stdin = open("색종이(초).txt")
+
+T = int(input())
+G = [[0 for _ in range(100)] for _ in range(100)]
+count = 0
+
+for tc in range(T):
+    y, x = list(map(int, input().split()))
+    for i in range(y, y+10):
+        for j in range(x, x+10):
+            G[i][j] = 1
+
+for i in range(100):
+    for j in range(100):
+        if G[i][j] == 1:
+            count += 1
+print(count)
+
+
+

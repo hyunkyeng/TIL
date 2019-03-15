@@ -1,0 +1,17 @@
+{% extends 'movies/base.html' %}
+{% load static %}
+
+{% block css %}
+{% endblock %}
+
+{% block title %}INDEX{% endblock %}
+
+{% block body %}
+    <h1>영화목록</h1>
+    {% for movie in movies %}
+        <p><a href="{% url 'movies:detail' movie.pk %}">{{ movie.title }}</a></p>
+        <img src="{{ movie.poster_url }}"></img>
+        <p>종합 평점 : {{ movie.score_avg }}</p>
+        <hr>
+    {% endfor %}
+{% endblock %}

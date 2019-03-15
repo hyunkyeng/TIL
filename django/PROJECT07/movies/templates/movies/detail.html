@@ -1,0 +1,44 @@
+{% extends 'movies/base.html' %}
+{% load static %}
+
+{% block css %}
+{% endblock %}
+
+{% block title %}INDEX{% endblock %}
+
+{% block body %}
+    <h1>영화정보조회</h1>
+    <hr>
+    <h3>영화명 : {{ movie.title }}</h3>
+    <h5>종합 평점: {{ movie.score_avg }}</h5>
+    <h4>장르 : {{ genre }}</h4>
+    <h4>누적관객수 : {{ movie.audience }}</h4>
+    <img src="{{ movie.poster_url }}"></img>
+    <h4>영화소개 : {{ movie.description }}</h4>
+    
+    <a href="{% url 'movies:index' %}">[목록]</a>
+    <a href="#">[수정]</a>
+    <a href="#">[삭제]</a>
+    
+    <hr>
+    {% for comment in comments %}
+        <li>
+            {{ comment.content }} ({{ comment.score }}점)
+            <form action="{% url 'movies:score_delete' movie.pk comment.pk %}" method="POST" style="display: inline">
+                {% csrf_token %}
+                <input type="submit" value="삭제"/>
+            </form>
+        </li>
+    {% endfor %}
+    
+    <hr>
+    <p>평점작성</p>
+    <form action="{% url 'movies:score_create' movie.pk %}" method="POST">
+        {% csrf_token %}
+        한줄평 : <input type="text" name="content"/>
+        평점 : <input type="text" name="score"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    
+
+{% endblock %}

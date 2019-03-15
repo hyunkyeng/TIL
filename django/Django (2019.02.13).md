@@ -28,6 +28,7 @@ python manage.py startapp student
 student.apps.StudentConfig
 
 - LANGUAGE_CODE = 'ko-kr'  /// TIME_ZONE = 'Asia/Seoul'  으로 변경
+- USE_TZ = False 으로 변경
 
 -  python manage.py runserver $IP:$PORT  을 써서 host확인
 

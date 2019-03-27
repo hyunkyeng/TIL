@@ -5,4 +5,4 @@ T = int(input())
 for tc in range(1):
     price, N = map(str, input().split())
     N = int(N)
-    
+

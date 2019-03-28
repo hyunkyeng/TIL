@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be253ec5-231f-4071-a16b-ed00ccd37db7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최대상금.py" beforeDir="false" afterPath="$PROJECT_DIR$/최대상금.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day23/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../django/PROJECT03" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/PROJECT03" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +16,10 @@
     <session id="-339668468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -194,6 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AD" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunDashboard">

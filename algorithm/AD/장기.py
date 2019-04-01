@@ -2,31 +2,37 @@ import sys
 sys.stdin = open("장기.txt")
 
 def bfs():
+    def bfs():
+        que = []
+        que.append((R, C, 0))
+        data[R][C] = 1
 
-    que = [(sy, sx, 0)]
+        dr = [-2, -2, -1, 1, 2, 2, 1, -1]
+        dc = [-1, 1, 2, 2, 1, -1, -2, -2]
 
-    while que:
-        y, x, count = que.pop(0)
-        if y == ey and x == ex:
-            return count
-        for i in range(8):
-            ny = y + dy[i]
-            nx = x + dx[i]
-            if 0 <= ny < Y and 0 <= nx < X:
-                que.append(ny, nx, count+1)
+        while que:
+            r, c, turn = que.pop(0)
 
+            if r == S and c == K:
+                return turn
 
+            for i in range(8):
+                nr = r + dr[i]
+                nc = c + dc[i]
 
+                if nr < 0 or nr >= N or nc < 0 or nc >= M:
+                    continue
+                if data[nr][nc] == 1:
+                    continue
+                data[nr][nc] = 1
+                que.append((nr, nc, turn + 1))
 
-Y, X = map(int, input().split())
-sy, sx, ey, ex = map(int, input().split())
-sy -= 1
-sx -= 1
-ey -= 1
-ex -= 1
+    N, M = map(int, input().split())
+    R, C, S, K = map(int, input().split())
+    R -= 1
+    C -= 1
+    S -= 1
+    K -= 1
 
-
-dx = [-1, 1, 2, 2, 1, -1, -1, -2]
-dy = [-2, -2, -1, 1, 2, 2, 1, -1]
-
-print(bfs())
+    data = [[0 for _ in range(M)] for _ in range(N)]
+    print(bfs())

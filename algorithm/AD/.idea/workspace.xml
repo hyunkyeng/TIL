@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388e54d1-73ec-4f1a-b4c2-087378283c4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day22/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day22/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day23/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/장기.py" beforeDir="false" afterPath="$PROJECT_DIR$/장기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/.idea/day21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/부분집합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/부분집합의합_가지치기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/선택정렬(반복이용).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/순열2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/연습문제2(baby-gin).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/최적경로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day21/최적경로.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/.idea/day22.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/0326_이현경.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/베이비진게임.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/베이비진게임.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/전기카트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/전기카트.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/최대상금.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/최대상금.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/최소합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/최소합.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/컨테이너운반.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/컨테이너운반.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/화물도크.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day22/화물도크.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/.idea/day23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/오름차순정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day23/정렬.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../django/PROJECT03" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/PROJECT03" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,54 +53,37 @@
     <session id="1732289402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
-          <entry key="txt" value="13" />
+          <entry key="py" value="19" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="18" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4510" />
+          <entry key="py" value="5008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4510" />
+          <entry key="Python" value="5008" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/단지번호붙이기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/주사위던지기2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/주사위던지기2.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/저글링.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -85,20 +105,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/장기(백준).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="1029">
               <caret line="49" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/장기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="567">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/숫자카운팅.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <marker date="1553770162342" expanded="true" signature="50:354" ph="..." />
+                <marker date="1554108825484" expanded="true" signature="70:352" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/숫자카운팅.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -137,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/더하기.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <marker date="1553762523060" expanded="true" signature="58:290" ph="..." />
               </folding>
@@ -182,12 +220,14 @@
         <option value="$PROJECT_DIR$/장기(백준).py" />
         <option value="$PROJECT_DIR$/장기.txt" />
         <option value="$PROJECT_DIR$/장기.py" />
+        <option value="$PROJECT_DIR$/숫자카운팅.txt" />
+        <option value="$PROJECT_DIR$/숫자카운팅.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="1124" />
+    <option name="width" value="803" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -214,7 +254,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.장기">
+  <component name="RunManager" selected="Python.숫자카운팅">
     <configuration name="더하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,27 +290,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="저글링" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AD" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/저글링.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="주사위던지기2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,6 +303,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/주사위던지기2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="숫자카운팅" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/숫자카운팅.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="저글링" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/저글링.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,19 +396,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.저글링" />
       <item itemvalue="Python.주사위던지기2" />
       <item itemvalue="Python.더하기" />
       <item itemvalue="Python.장기(백준)" />
-      <item itemvalue="Python.장기" />
+      <item itemvalue="Python.숫자카운팅" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.장기" />
+        <item itemvalue="Python.숫자카운팅" />
         <item itemvalue="Python.장기(백준)" />
         <item itemvalue="Python.더하기" />
         <item itemvalue="Python.주사위던지기2" />
-        <item itemvalue="Python.저글링" />
       </list>
     </recent_temporary>
   </component>
@@ -365,23 +424,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1124" y="0" width="803" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30588236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,6 +465,11 @@
           <url>file://$PROJECT_DIR$/장기(백준).py</url>
           <line>48</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/숫자카운팅.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -519,10 +582,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="1190" column="8" selection-start-line="1190" selection-start-column="8" selection-end-line="1190" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/단지번호붙이기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/주사위던지기2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -533,17 +610,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/주사위던지기2.py">
+    <entry file="file://$PROJECT_DIR$/저글링.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="672">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
+    <entry file="file://$PROJECT_DIR$/장기(백준).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="1190" column="8" selection-start-line="1190" selection-start-column="8" selection-end-line="1190" selection-end-column="8" />
+        <state relative-caret-position="1029">
+          <caret line="49" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/장기.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/장기(백준).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -557,50 +648,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/저글링.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/더하기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
           <folding>
             <marker date="1553762523060" expanded="true" signature="58:290" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/장기(백준).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/장기(백준).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="49" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/장기.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/장기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="567">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/숫자카운팅.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/숫자카운팅.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <marker date="1553770162342" expanded="true" signature="50:354" ph="..." />
+            <marker date="1554108825484" expanded="true" signature="70:352" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,24 +1,22 @@
 import sys
 sys.stdin = open("로봇과자먹기.txt")
-#
-# def check(a):
-#     flag = []
-#     global summ
-#     k = 0
-#     flag.append(a)
-#     k += 1
-#     for j in range(N):
-#         if j not in flag:
-#             summ += data[k][j]
-#             flag.append(j)
-#             k += 1
-#             for z in range(N):
-#                 if z not in flag:
-#                     summ += data[k][z]
-#                     flag.append(z)
-#     if k == 3:
-#         return summ
 
+
+def DFS(n, nsum):
+    global nmin
+    if nsum > nmin:     # 가지치기
+        return
+    if n >= N:
+        if nsum < nmin:
+            nmin = nsum
+        return
+    for i in range(N):      # 과자 열
+        if chk[i]:
+            continue
+        chk[i] = 1
+        rec[n] = data[n][i]             # 거리기록
+        DFS(n+1, nsum + data[n][i])
+        chk[i] = 0
 
 
 T = int(input())
@@ -26,7 +24,8 @@ for tc in range(T):
     N = int(input())
     cookie = list(map(int, input().split()))
     robot = list(map(int, input().split()))
-
+    chk = [0] * N   # 과자 중복여부 체크 배열
+    rec = [0] * N   # 로봇별 먹은 과자의 거리 기록배열
 
     data = [[0]*N for _ in range(N)]
     # print(data)
@@ -40,10 +39,8 @@ for tc in range(T):
             cy = cookie[2*j +1]
 
             data[i][j] = abs(rx - cx) + abs(ry-cy)
-    print(data)
-    # L = []
-    # for i in range(N):
-    #     summ = data[0][i]
-    #     check(i)
-    #     L.append(summ)
-    # print('#{} {}'.format(tc+1, min(L)))
+    # print(data)
+
+    nmin = 1000000
+    DFS(0, 0)
+    print(nmin)

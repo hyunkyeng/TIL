@@ -48,6 +48,7 @@ for i in range(CN):     #행을치킨집으로
     for j in range(HN):
         dist = abs(chk[i][0] - house[j][0]) + abs(chk[i][1] - house[j][1])
         arr[i][j] = dist
+print(arr)
 sol = 20*20
 DFS(0, 0)
 print(sol)

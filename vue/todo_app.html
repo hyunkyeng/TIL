@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .completed {
+        text-decoration: line-through;
+        opacity: 0.6;
+    }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <select v-model="status">
+            <option value="all" seleted>all</option>
+            <option value="active">active</option>
+            <option value="completed">completed</option>
+        </select>
+        <!-- v-on:click="todo.completed = true" -->
+        <li v-for="todo in todosByStatus()" v-bind:class="{completed: todo.completed}" v-bind:key="todo.id">
+            <input type="checkbox" v-model="todo.completed">
+            <span>{{ todo.content }}</span>  
+        </li>
+        <!-- <li v-else v-on:click="check(todo)">[완료!]</li> -->
+        <input type="text" v-model="newTodo" v-on:keyup.enter="addTodo">
+        <button @click="addTodo">+</button>
+        <footer>
+            <button @click="clearCompleted">Clear</button>
+        </footer>
+        <span>{{ reversedNewTodo }}</span>
+    </div>
+
+
+    <!-- 도움되는 콘솔 경고를 포함한 개발 버전 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const STORAGE_KEY = 'vue-todos'
+        const todoStorage = {
+            fetch: function () {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+            },
+            save:function (todos) {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
+            }
+        }
+
+
+        const app = new Vue({
+            el: '#app',
+            data: {
+                todos: todoStorage.fetch(),
+                newTodo: '',
+                activeColor: 'red',
+                fontSize: 30,
+                status: 'all',
+            },
+            methods: {
+                check: function (todo) {
+                    todo.completed = !todo.completed
+                },
+                addTodo: function () {
+                    this.todos.push({
+                        id: Date.now(),
+                        content: this.newTodo,
+                        completed: false,
+                    })
+                    this.newTodo = ''
+                },
+                clearCompleted: function () {
+                    // filter 로 false 애들만 필터해서 todos에 다시 할당
+                    const notCompletedTodos = this.todos.filter(todo => !todo.completed)
+                    this.todos = notCompletedTodos
+                },
+                todosByStatus: function () {
+                    if (this.status === 'active') {
+                        return this.todos.filter(todo => !todo.completed)
+                    }
+                    if (this.status === 'completed') {
+                        return this.todos.filter(todo => todo.completed)
+                    }
+                    return this.todos
+                }
+
+            },
+            computed: {
+                reversedNewTodo: function () {
+                    return this.newTodo.split('').reverse().join('')
+                }
+            },
+            watch: {
+                todos: {
+                    handler: function (todos) {
+                        todoStorage.save(todos)
+                    },
+                    deep: true,
+                }
+            }
+        })
+    // 디렉티브 : vue에서 제공하는 특수 속성임을 나타내는 v-접두어가 붙어있으며, 렌더링된 DOM에 특수한 반응형 동작을 한다
+    // v-on:click - 디렉티브 바로 뒤에 붙는 친구들은 전달인자라고 한다.
+    </script>
+</body>
+</html>
